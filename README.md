@@ -1,16 +1,15 @@
 # library-app
-Please clone this repository\n
-Then:\n
-'''
+Please clone this repository  
+Then:  
+```
 cd backend
 npm run dev
-'''
-to run the server\n
-and:\n
-'''
+```  
+to run the server  
+and:  
+```
 cd frontend
 npm start
-'''
-\n
+```  
 to run the frontend
 
