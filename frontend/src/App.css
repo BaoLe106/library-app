@@ -1,0 +1,74 @@
+html {
+  background-color: antiquewhite;
+}
+.bookForm {
+  display: grid;
+  width: 400px;
+  border: solid black 4px;
+  border-radius: 20px;
+  margin: auto auto 40px;
+  padding: 20px;
+  background-color: rgb(121, 121, 121);
+  color: white;
+  align-content: center;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.edit-container, .add-container {
+  width: 500px;
+  margin: 0 auto;
+}
+.table-container {
+  max-height: 385px;
+  width: 800px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+.link-container {
+  display: flex;
+  min-width: 300px;
+  width: 100%;
+  /* max-width: 800px; */
+  margin: 0 auto;
+  justify-content: space-between;
+}
+thead th {
+  position: sticky; /* make the table heads sticky */
+  top: 0px;
+}
+table {
+  width: 800px;
+  margin: 0px auto;
+  border: solid black 2px;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: solid 2px black;
+  padding: 4px;
+  background-color: rgb(121, 121, 121);
+  color: white;
+}
+th {
+  text-align: left;
+  background-color: rgb(165, 162, 162);
+  color: white;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(54, 47, 46);
+  color: white;
+}
+.Header > p {
+  margin: 0 auto;
+}
